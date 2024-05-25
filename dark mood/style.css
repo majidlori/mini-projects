@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* font-size: 18px; */
+    font-weight: bold;
+    margin: 0;
+    transition: all 0.3s linear;
+
+}
+
+.toggle-container{
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.dark{
+    background: #0c0b0b;
+    color: white;
+}
